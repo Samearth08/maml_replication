@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "ways": 5,
+  "losses": [
+    1.5387241840362549,
+    0.7185394763946533,
+    0.35033220052719116,
+    0.20441587269306183,
+    0.07483087480068207,
+    0.0330023467540741,
+    0.016808204352855682,
+    0.011000832542777061,
+    0.008304843679070473,
+    0.006906844675540924,
+    0.00568034453317523,
+    0.004517768044024706
+  ],
+  "gradient_norms": [
+    44.6369514465332,
+    62.89141082763672,
+    49.143314361572266,
+    17.530614852905273,
+    3.9680471420288086,
+    1.4256956577301025,
+    0.4054567217826843,
+    0.8797035813331604,
+    1.0214970111846924,
+    1.0252947807312012,
+    0.9066324830055237,
+    0.7208986282348633
+  ],
+  "full_vs_first_order_gradient_l2": 15.1653470993042,
+  "seconds": 18.305516800000078,
+  "checks": [
+    "balanced task labels",
+    "disjoint classes/files/support-query windows",
+    "finite gradients including learned rates",
+    "second-order gradient path",
+    "base parameters unchanged by adaptation/evaluation",
+    "repeated-task loss decreases"
+  ],
+  "warning": "Debug overfits one training episode; NOT a reported experiment result."
+}

@@ -1,0 +1,22 @@
+# Raw recordings and any derived sample caches must not enter the repository.
+*.mat
+*.npz
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+data/raw/
+CWRU_raw/
+
+# Local credentials, temporary files and duplicate archives
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.zip

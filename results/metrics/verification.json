@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checks": [
+    "30 distinct real source recordings",
+    "99.mat uses X099 channels",
+    "all raw windows non-overlapping",
+    "purged temporal gap between test support/query pools",
+    "3-way reproducible task sampler and disjoint files/classes",
+    "3-way fixed-rate MAML finite gradients",
+    "3-way query-batch independence",
+    "5-way reproducible task sampler and disjoint files/classes",
+    "5-way fixed-rate MAML finite gradients",
+    "5-way query-batch independence",
+    "six complete checkpoints and histories",
+    "all metrics/confusions recomputed from predictions",
+    "all saved dataset hashes match current files",
+    "3-way and 5-way checkpoints exactly reproduce their first two test episodes",
+    "all 21 notebook code cells executed",
+    "no local Python-module imports or Python scripts in submission"
+  ],
+  "completed_experiments": [
+    "3way_5shot_learned_seed1",
+    "3way_5shot_learned_seed2",
+    "3way_5shot_learned_seed3",
+    "5way_5shot_learned_seed1",
+    "5way_5shot_learned_seed2",
+    "5way_5shot_learned_seed3"
+  ],
+  "implementation": "All research code is defined directly in this notebook.",
+  "notebook_all_code_cells_executed": true,
+  "notebook_code_cells": 21,
+  "notebook_error_outputs": 0,
+  "standalone_no_local_modules": true
+}

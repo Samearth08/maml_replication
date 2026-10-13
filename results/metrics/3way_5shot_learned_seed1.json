@@ -1,0 +1,175 @@
+{
+  "accuracy": 0.9533333333333334,
+  "precision_macro": 0.9586995272807154,
+  "recall_macro": 0.9533333333333335,
+  "f1_macro": 0.9531179653693075,
+  "episode_accuracy_std": 0.09066238439289954,
+  "eval_tasks": 30,
+  "query_predictions": 1350,
+  "episode_accuracies": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.7333333333333333,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.7111111111111111,
+    1.0,
+    1.0,
+    1.0,
+    0.8444444444444444,
+    1.0,
+    0.8666666666666667,
+    1.0,
+    0.8666666666666667,
+    1.0,
+    1.0,
+    0.9777777777777777,
+    0.7333333333333333,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.8666666666666667,
+    1.0
+  ],
+  "class_ids": [
+    8,
+    9,
+    10
+  ],
+  "confusion_matrix": [
+    [
+      449,
+      0,
+      1
+    ],
+    [
+      0,
+      450,
+      0
+    ],
+    [
+      62,
+      0,
+      388
+    ]
+  ],
+  "config": {
+    "ways": 3,
+    "shots": 5,
+    "train_queries": 4,
+    "queries": 15,
+    "train_samples_per_class": 9,
+    "inner_lr": 0.01,
+    "outer_lr": 0.001,
+    "inner_steps": 1,
+    "learn_inner_lr": true,
+    "meta_batch_size": 1,
+    "iterations": 100,
+    "eval_tasks": 30,
+    "seed": 1,
+    "threads": 2,
+    "device": "cpu",
+    "dataset_path": "D:\\MagnusHathaway\\CWRU_raw",
+    "results_path": "D:\\MagnusHathaway\\MAML_Bearing_Reproduction\\results",
+    "fast_debug": false
+  },
+  "train_seconds": 93.62074260000009,
+  "evaluation_seconds": 15.663403300000937,
+  "cnn_parameters": {
+    "total": 115011,
+    "trainable": 115011
+  },
+  "maml_parameters": {
+    "total": 115020,
+    "trainable": 115020
+  },
+  "environment": {
+    "python": "3.10.9",
+    "torch": "2.11.0+cpu",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "device": "cpu"
+  },
+  "learned_rates": {
+    "blocks_0_bn": [
+      0.01931590586900711
+    ],
+    "blocks_0_conv": [
+      0.036639317870140076
+    ],
+    "blocks_1_bn": [
+      0.04612758010625839
+    ],
+    "blocks_1_conv": [
+      0.03637831285595894
+    ],
+    "blocks_2_bn": [
+      0.06502759456634521
+    ],
+    "blocks_2_conv": [
+      0.06557337939739227
+    ],
+    "blocks_3_bn": [
+      -0.01259920746088028
+    ],
+    "blocks_3_conv": [
+      0.06484576314687729
+    ],
+    "head": [
+      0.0062752473168075085
+    ]
+  },
+  "data_sha256": {
+    "98.mat": "37e6612c05e65c415dcfa2ab27a3fda648a5863160fa898b884a14743044e045",
+    "99.mat": "4b97e6b5361f45efb6951dc3b1aebcdb3b89cb69d0f96d6f5c297dd9f45eee75",
+    "100.mat": "88a5990cb541320e91505a1d72139e1993500ffe6e292a451011667f4138ca78",
+    "119.mat": "bc72d9df7668219e004a0f711232b23ec0aed393eb9bd8f9f5483426f6b51330",
+    "120.mat": "e0b7a584c49af52335ff0904a97d4afcf02d045625c582de63a7c85ce10b489c",
+    "121.mat": "52f686e984ba8e9b04a047a57416271cdb322cee57ee105dce58926a24b966cb",
+    "186.mat": "1b3b6f3ad38e891feaa8026fe957b34f62f9082785089cc74f6878acdfe88ec5",
+    "187.mat": "0f1338cce89beb5c8d8e5e154579bc576354e7c7d1617ebd1759662c6f3100b2",
+    "188.mat": "1981614324d653c2522bea68fd4fd87e337495b117d12596db67abd1e10e7443",
+    "223.mat": "7287410fd2217e3b332c5ab4732a68963be046d7d17bd40efa41cabe6a0514e5",
+    "224.mat": "8a16894c2ff4d6bcdb9f4c345c0d5f13737b3bd6d15015d6b566c86e7a3ee7b7",
+    "225.mat": "ece92fa141af03473fdfca80d00d9112472a20340224514e79979c6ddc97a6cf",
+    "106.mat": "e5cec7cdd138e6cd1deb9ed8634e5aaa9bc1bd7094ddc075bff606580eb6e883",
+    "107.mat": "111ba8996a115684661a13c913bd74d8029a59294492f88aec7b03e175fdd388",
+    "108.mat": "d415f0e65128bfa0b118c2051c988fb0dc6ce3e4c8aa45fdc5ad1d0967462e7d",
+    "170.mat": "bcb73a5208b67265468232a2e342f53719850901671d0ee28494f3af97621f46",
+    "171.mat": "63d0fdc1a68e64610ddfaf56a9c224d6137ab7b5c0d318eea1d542b9e5ffc029",
+    "172.mat": "f75170ceef70d5da475671de0d2e52a0acd9b3883ad422b6deaf2907d888ba24",
+    "210.mat": "596692397e77e129a00f7b7a61c4c3ffd6c7a59979b89039e7f70a7431cce1c7",
+    "211.mat": "8296a02ee489c2d16cbd9fc278ca2e29b22475cec70ebe840558c78b6b743dc1",
+    "212.mat": "bfe13761f545a26b217db897a12d27e16fec74306aa86ade8dbdc8ebe587c253",
+    "131.mat": "7883f7b83beadc54b2f301767f9145ce07055707182fb0278fdf0a6bb53ce3cb",
+    "132.mat": "17a69ed5d2270b42532e678e35bbe2fa04a2cc413cf2bf9e88c7692de8662d18",
+    "133.mat": "53f076cb0d905cf46bffaee7736abce8224ffed777deed03c0c863d762a90c71",
+    "198.mat": "dbd58e4585ca8f8332c708b15936987ec0990ca701359fd2483dae2719df5b49",
+    "199.mat": "ca4e6407fdb68845a6973da6028477911a62d018580063749fe956441be95cf2",
+    "200.mat": "2526483d2701220a700df8e6c9db0c527641b0887225907f4096610dd7120f4b",
+    "235.mat": "667e4bf1f213f92d10dca71d494ad002d8fd22bfd8004b31a4c71ccf0d764b66",
+    "236.mat": "c411d6d9826cba8073430555dc833e05fcbe4c38535f3eb7f03c525ea6797589",
+    "237.mat": "233d1edb2daa963658369119e389e30f02aca551dd7bb028ab33e7ba63edfd20"
+  },
+  "train_class_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "test_class_ids": [
+    8,
+    9,
+    10
+  ],
+  "model_selection": "Final iteration, fixed budget; no test-based selection"
+}
